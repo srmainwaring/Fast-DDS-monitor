@@ -41,7 +41,7 @@ std::vector<EntityId> Endpoint::get_entities(
             ids.push_back(participant_->id());
             return ids;
 
-        case EntityKind::DOMAIN:
+        case EntityKind::DDS_DOMAIN:
 
         case EntityKind::DATAWRITER:
         case EntityKind::DATAREADER:
